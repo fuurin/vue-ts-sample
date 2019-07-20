@@ -7,6 +7,7 @@
     <ResetButton v-model="greetText"></ResetButton>
 
     <div v-for="item in items" :key="item">
+      <i class="far fa-lightbulb"></i>
       <p class="has-text-danger">{{ item }}</p>
     </div>
 
