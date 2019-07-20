@@ -11,6 +11,8 @@
       <p class="has-text-danger">{{ item }}</p>
     </div>
 
+    <router-link to="/about">About</router-link>
+    
   </div>
 </template>
 
